@@ -16,7 +16,7 @@ class Simple1DCNN(nn.Module):
         def conv_block(in_ch, out_ch, k):
             return nn.Sequential(
                 nn.Conv1d(in_ch, out_ch, kernel_size=k, padding=k // 2),
-                nn.BatchNorm1d(out_ch),
+                nn.BatchNorm1d(out_ch) if torch.cuda.is_available() else nn.Identity(),
                 nn.ReLU(inplace=True),
             )
 
@@ -39,7 +39,11 @@ class Simple1DCNN(nn.Module):
         self.classifier = nn.Sequential(
             # more dropout before classifier
             nn.Conv1d(base_width * 8, base_width * 4, 1),
-            nn.BatchNorm1d(base_width * 4),
+            (
+                nn.BatchNorm1d(base_width * 4)
+                if torch.cuda.is_available()
+                else nn.Identity()
+            ),
             nn.ReLU(inplace=True),
             nn.Dropout(dropout_prob),
             nn.Conv1d(base_width * 4, num_classes, 1),
@@ -47,6 +51,17 @@ class Simple1DCNN(nn.Module):
 
     def forward(self, x):
         # x: (B, num_sensors, T)
+        if x.size(0) == 1:  # If batch size is 1
+            # Temporarily disable batch norm
+            for module in self.modules():
+                if isinstance(module, nn.BatchNorm1d):
+                    module.eval()
+        else:
+            # Enable batch norm for batch size > 1
+            for module in self.modules():
+                if isinstance(module, nn.BatchNorm1d):
+                    module.train()
+
         x = self.features(x)  # → (B, base_width*8, 1)
         x = self.classifier(x)  # → (B, num_classes, 1)
         return x.squeeze(-1)  # → (B, num_classes)
@@ -54,9 +69,17 @@ class Simple1DCNN(nn.Module):
     def _conv_block(self, in_channels, out_channels, kernel_size):
         return nn.Sequential(
             nn.Conv1d(in_channels, out_channels, kernel_size, padding="same"),
-            nn.BatchNorm1d(out_channels),
+            (
+                nn.BatchNorm1d(out_channels)
+                if torch.cuda.is_available()
+                else nn.Identity()
+            ),
             nn.ReLU(),
             nn.Conv1d(out_channels, out_channels, kernel_size, padding="same"),
-            nn.BatchNorm1d(out_channels),
+            (
+                nn.BatchNorm1d(out_channels)
+                if torch.cuda.is_available()
+                else nn.Identity()
+            ),
             nn.ReLU(),
         )

@@ -9,7 +9,6 @@ from tqdm import tqdm
 from sklearn.metrics import f1_score, accuracy_score
 from sklearn.model_selection import train_test_split
 import numpy as np
-from collections import Counter
 
 
 def train(args):
@@ -227,18 +226,6 @@ def train(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train the baseline model")
 
-    # parser.add_argument(
-    #     "--db_folder",
-    #     type=str,
-    #     default=".",
-    #     help="the path to the dataset",
-    # )
-    # parser.add_argument(
-    #     "--window_length",
-    #     type=int,
-    #     default=125,
-    #     help="the size of the windows to extract as inputs for the models",
-    # )
     parser.add_argument(
         "--batch_size", type=int, default=64, help="Batch size for training"
     )
