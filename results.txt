@@ -1,0 +1,268 @@
+============================================================
+SENSOR IMPORTANCE ANALYSIS
+============================================================
+Baseline Fisher score for Rock vs Scissor: 12.9361
+Analyzing sensor importance for Rock vs Scissor...
+  Sensor 1 (Rock) + Sensor 1 (Scissor) zeroed: F-score = 1.2336 (Δ = -11.7025)
+  Sensor 1 (Rock) + Sensor 2 (Scissor) zeroed: F-score = 13649.9327 (Δ = 13636.9967)
+  Sensor 1 (Rock) + Sensor 3 (Scissor) zeroed: F-score = 4448.4076 (Δ = 4435.4715)
+  Sensor 1 (Rock) + Sensor 4 (Scissor) zeroed: F-score = 18538.1839 (Δ = 18525.2479)
+  Sensor 1 (Rock) + Sensor 5 (Scissor) zeroed: F-score = 21652.4148 (Δ = 21639.4788)
+  Sensor 1 (Rock) + Sensor 6 (Scissor) zeroed: F-score = 12712.4098 (Δ = 12699.4737)
+  Sensor 1 (Rock) + Sensor 7 (Scissor) zeroed: F-score = 2642.3638 (Δ = 2629.4277)
+  Sensor 1 (Rock) + Sensor 8 (Scissor) zeroed: F-score = 9137.9205 (Δ = 9124.9844)
+  Sensor 2 (Rock) + Sensor 1 (Scissor) zeroed: F-score = 7750.9638 (Δ = 7738.0277)
+  Sensor 2 (Rock) + Sensor 2 (Scissor) zeroed: F-score = 12.9361 (Δ = 0.0000)
+  Sensor 2 (Rock) + Sensor 3 (Scissor) zeroed: F-score = 4448.4076 (Δ = 4435.4715)
+  Sensor 2 (Rock) + Sensor 4 (Scissor) zeroed: F-score = 18538.1839 (Δ = 18525.2479)
+  Sensor 2 (Rock) + Sensor 5 (Scissor) zeroed: F-score = 21652.4148 (Δ = 21639.4788)
+  Sensor 2 (Rock) + Sensor 6 (Scissor) zeroed: F-score = 12712.4098 (Δ = 12699.4737)
+  Sensor 2 (Rock) + Sensor 7 (Scissor) zeroed: F-score = 4338.2204 (Δ = 4325.2843)
+  Sensor 2 (Rock) + Sensor 8 (Scissor) zeroed: F-score = 9137.9205 (Δ = 9124.9844)
+  Sensor 3 (Rock) + Sensor 1 (Scissor) zeroed: F-score = 9441.6688 (Δ = 9428.7328)
+  Sensor 3 (Rock) + Sensor 2 (Scissor) zeroed: F-score = 13649.9327 (Δ = 13636.9967)
+  Sensor 3 (Rock) + Sensor 3 (Scissor) zeroed: F-score = 12.9361 (Δ = 0.0000)
+  Sensor 3 (Rock) + Sensor 4 (Scissor) zeroed: F-score = 18538.1839 (Δ = 18525.2479)
+  Sensor 3 (Rock) + Sensor 5 (Scissor) zeroed: F-score = 21652.4148 (Δ = 21639.4788)
+  Sensor 3 (Rock) + Sensor 6 (Scissor) zeroed: F-score = 12712.4098 (Δ = 12699.4737)
+  Sensor 3 (Rock) + Sensor 7 (Scissor) zeroed: F-score = 9441.6688 (Δ = 9428.7328)
+  Sensor 3 (Rock) + Sensor 8 (Scissor) zeroed: F-score = 9441.6688 (Δ = 9428.7328)
+  Sensor 4 (Rock) + Sensor 1 (Scissor) zeroed: F-score = 11266.8828 (Δ = 11253.9467)
+  Sensor 4 (Rock) + Sensor 2 (Scissor) zeroed: F-score = 13649.9327 (Δ = 13636.9967)
+  Sensor 4 (Rock) + Sensor 3 (Scissor) zeroed: F-score = 11266.8828 (Δ = 11253.9467)
+  Sensor 4 (Rock) + Sensor 4 (Scissor) zeroed: F-score = 12.9361 (Δ = 0.0000)
+  Sensor 4 (Rock) + Sensor 5 (Scissor) zeroed: F-score = 21652.4148 (Δ = 21639.4788)
+  Sensor 4 (Rock) + Sensor 6 (Scissor) zeroed: F-score = 12712.4098 (Δ = 12699.4737)
+  Sensor 4 (Rock) + Sensor 7 (Scissor) zeroed: F-score = 11266.8828 (Δ = 11253.9467)
+  Sensor 4 (Rock) + Sensor 8 (Scissor) zeroed: F-score = 11266.8828 (Δ = 11253.9467)
+  Sensor 5 (Rock) + Sensor 1 (Scissor) zeroed: F-score = 12786.2359 (Δ = 12773.2998)
+  Sensor 5 (Rock) + Sensor 2 (Scissor) zeroed: F-score = 13649.9327 (Δ = 13636.9967)
+  Sensor 5 (Rock) + Sensor 3 (Scissor) zeroed: F-score = 12786.2359 (Δ = 12773.2998)
+  Sensor 5 (Rock) + Sensor 4 (Scissor) zeroed: F-score = 18538.1839 (Δ = 18525.2479)
+  Sensor 5 (Rock) + Sensor 5 (Scissor) zeroed: F-score = 12.9361 (Δ = 0.0000)
+  Sensor 5 (Rock) + Sensor 6 (Scissor) zeroed: F-score = 12786.2359 (Δ = 12773.2998)
+  Sensor 5 (Rock) + Sensor 7 (Scissor) zeroed: F-score = 12786.2359 (Δ = 12773.2998)
+  Sensor 5 (Rock) + Sensor 8 (Scissor) zeroed: F-score = 12786.2359 (Δ = 12773.2998)
+  Sensor 6 (Rock) + Sensor 1 (Scissor) zeroed: F-score = 7750.9638 (Δ = 7738.0277)
+  Sensor 6 (Rock) + Sensor 2 (Scissor) zeroed: F-score = 13649.9327 (Δ = 13636.9967)
+  Sensor 6 (Rock) + Sensor 3 (Scissor) zeroed: F-score = 4448.4076 (Δ = 4435.4715)
+  Sensor 6 (Rock) + Sensor 4 (Scissor) zeroed: F-score = 18538.1839 (Δ = 18525.2479)
+  Sensor 6 (Rock) + Sensor 5 (Scissor) zeroed: F-score = 21652.4148 (Δ = 21639.4788)
+  Sensor 6 (Rock) + Sensor 6 (Scissor) zeroed: F-score = 12.9361 (Δ = 0.0000)
+  Sensor 6 (Rock) + Sensor 7 (Scissor) zeroed: F-score = 2642.3638 (Δ = 2629.4277)
+  Sensor 6 (Rock) + Sensor 8 (Scissor) zeroed: F-score = 9137.9205 (Δ = 9124.9844)
+  Sensor 7 (Rock) + Sensor 1 (Scissor) zeroed: F-score = 7750.9638 (Δ = 7738.0277)
+  Sensor 7 (Rock) + Sensor 2 (Scissor) zeroed: F-score = 13649.9327 (Δ = 13636.9967)
+  Sensor 7 (Rock) + Sensor 3 (Scissor) zeroed: F-score = 4448.4076 (Δ = 4435.4715)
+  Sensor 7 (Rock) + Sensor 4 (Scissor) zeroed: F-score = 18538.1839 (Δ = 18525.2479)
+  Sensor 7 (Rock) + Sensor 5 (Scissor) zeroed: F-score = 21652.4148 (Δ = 21639.4788)
+  Sensor 7 (Rock) + Sensor 6 (Scissor) zeroed: F-score = 12712.4098 (Δ = 12699.4737)
+  Sensor 7 (Rock) + Sensor 7 (Scissor) zeroed: F-score = 12.9361 (Δ = 0.0000)
+  Sensor 7 (Rock) + Sensor 8 (Scissor) zeroed: F-score = 9137.9205 (Δ = 9124.9844)
+  Sensor 8 (Rock) + Sensor 1 (Scissor) zeroed: F-score = 7750.9638 (Δ = 7738.0277)
+  Sensor 8 (Rock) + Sensor 2 (Scissor) zeroed: F-score = 13649.9327 (Δ = 13636.9967)
+  Sensor 8 (Rock) + Sensor 3 (Scissor) zeroed: F-score = 7160.1916 (Δ = 7147.2555)
+  Sensor 8 (Rock) + Sensor 4 (Scissor) zeroed: F-score = 18538.1839 (Δ = 18525.2479)
+  Sensor 8 (Rock) + Sensor 5 (Scissor) zeroed: F-score = 21652.4148 (Δ = 21639.4788)
+  Sensor 8 (Rock) + Sensor 6 (Scissor) zeroed: F-score = 12712.4098 (Δ = 12699.4737)
+  Sensor 8 (Rock) + Sensor 7 (Scissor) zeroed: F-score = 7160.1916 (Δ = 7147.2555)
+  Sensor 8 (Rock) + Sensor 8 (Scissor) zeroed: F-score = 12.9361 (Δ = 0.0000)
+
+============================================================
+Rock vs Scissor Sensor Impact (Δ vs baseline)
+Rows: Rock sensors zeroed, Columns: Scissor sensors zeroed
+============================================================
+[[-1.17025153e+01  1.36369967e+04  4.43547149e+03  1.85252479e+04
+   2.16394788e+04  1.26994737e+04  2.62942773e+03  9.12498438e+03]
+ [ 7.73802769e+03  0.00000000e+00  4.43547149e+03  1.85252479e+04
+   2.16394788e+04  1.26994737e+04  4.32528431e+03  9.12498438e+03]
+ [ 9.42873277e+03  1.36369967e+04  0.00000000e+00  1.85252479e+04
+   2.16394788e+04  1.26994737e+04  9.42873277e+03  9.42873277e+03]
+ [ 1.12539467e+04  1.36369967e+04  1.12539467e+04  0.00000000e+00
+   2.16394788e+04  1.26994737e+04  1.12539467e+04  1.12539467e+04]
+ [ 1.27732998e+04  1.36369967e+04  1.27732998e+04  1.85252479e+04
+   0.00000000e+00  1.27732998e+04  1.27732998e+04  1.27732998e+04]
+ [ 7.73802769e+03  1.36369967e+04  4.43547149e+03  1.85252479e+04
+   2.16394788e+04  0.00000000e+00  2.62942773e+03  9.12498438e+03]
+ [ 7.73802769e+03  1.36369967e+04  4.43547149e+03  1.85252479e+04
+   2.16394788e+04  1.26994737e+04  0.00000000e+00  9.12498438e+03]
+ [ 7.73802769e+03  1.36369967e+04  7.14725554e+03  1.85252479e+04
+   2.16394788e+04  1.26994737e+04  7.14725554e+03  0.00000000e+00]]
+
+
+Baseline Fisher score for Paper vs Scissor: 0.9454
+Analyzing sensor importance for Paper vs Scissor...
+  Sensor 1 (Paper) + Sensor 1 (Scissor) zeroed: F-score = 0.9454 (Δ = 0.0000)
+  Sensor 1 (Paper) + Sensor 2 (Scissor) zeroed: F-score = 12444.2575 (Δ = 12443.3121)
+  Sensor 1 (Paper) + Sensor 3 (Scissor) zeroed: F-score = 5253.2660 (Δ = 5252.3207)
+  Sensor 1 (Paper) + Sensor 4 (Scissor) zeroed: F-score = 8560.4365 (Δ = 8559.4911)
+  Sensor 1 (Paper) + Sensor 5 (Scissor) zeroed: F-score = 5148.3686 (Δ = 5147.4232)
+  Sensor 1 (Paper) + Sensor 6 (Scissor) zeroed: F-score = 1892.4830 (Δ = 1891.5376)
+  Sensor 1 (Paper) + Sensor 7 (Scissor) zeroed: F-score = 1892.4830 (Δ = 1891.5376)
+  Sensor 1 (Paper) + Sensor 8 (Scissor) zeroed: F-score = 5577.8524 (Δ = 5576.9070)
+  Sensor 2 (Paper) + Sensor 1 (Scissor) zeroed: F-score = 4338.2204 (Δ = 4337.2750)
+  Sensor 2 (Paper) + Sensor 2 (Scissor) zeroed: F-score = 0.1581 (Δ = -0.7873)
+  Sensor 2 (Paper) + Sensor 3 (Scissor) zeroed: F-score = 5253.2660 (Δ = 5252.3207)
+  Sensor 2 (Paper) + Sensor 4 (Scissor) zeroed: F-score = 8560.4365 (Δ = 8559.4911)
+  Sensor 2 (Paper) + Sensor 5 (Scissor) zeroed: F-score = 5148.3686 (Δ = 5147.4232)
+  Sensor 2 (Paper) + Sensor 6 (Scissor) zeroed: F-score = 4338.2204 (Δ = 4337.2750)
+  Sensor 2 (Paper) + Sensor 7 (Scissor) zeroed: F-score = 4338.2204 (Δ = 4337.2750)
+  Sensor 2 (Paper) + Sensor 8 (Scissor) zeroed: F-score = 5577.8524 (Δ = 5576.9070)
+  Sensor 3 (Paper) + Sensor 1 (Scissor) zeroed: F-score = 9441.6688 (Δ = 9440.7235)
+  Sensor 3 (Paper) + Sensor 2 (Scissor) zeroed: F-score = 12444.2575 (Δ = 12443.3121)
+  Sensor 3 (Paper) + Sensor 3 (Scissor) zeroed: F-score = 0.9454 (Δ = 0.0000)
+  Sensor 3 (Paper) + Sensor 4 (Scissor) zeroed: F-score = 9441.6688 (Δ = 9440.7235)
+  Sensor 3 (Paper) + Sensor 5 (Scissor) zeroed: F-score = 9441.6688 (Δ = 9440.7235)
+  Sensor 3 (Paper) + Sensor 6 (Scissor) zeroed: F-score = 9441.6688 (Δ = 9440.7235)
+  Sensor 3 (Paper) + Sensor 7 (Scissor) zeroed: F-score = 9441.6688 (Δ = 9440.7235)
+  Sensor 3 (Paper) + Sensor 8 (Scissor) zeroed: F-score = 9441.6688 (Δ = 9440.7235)
+  Sensor 4 (Paper) + Sensor 1 (Scissor) zeroed: F-score = 11266.8828 (Δ = 11265.9374)
+  Sensor 4 (Paper) + Sensor 2 (Scissor) zeroed: F-score = 12444.2575 (Δ = 12443.3121)
+  Sensor 4 (Paper) + Sensor 3 (Scissor) zeroed: F-score = 11266.8828 (Δ = 11265.9374)
+  Sensor 4 (Paper) + Sensor 4 (Scissor) zeroed: F-score = 0.9454 (Δ = 0.0000)
+  Sensor 4 (Paper) + Sensor 5 (Scissor) zeroed: F-score = 11266.8828 (Δ = 11265.9374)
+  Sensor 4 (Paper) + Sensor 6 (Scissor) zeroed: F-score = 11266.8828 (Δ = 11265.9374)
+  Sensor 4 (Paper) + Sensor 7 (Scissor) zeroed: F-score = 11266.8828 (Δ = 11265.9374)
+  Sensor 4 (Paper) + Sensor 8 (Scissor) zeroed: F-score = 11266.8828 (Δ = 11265.9374)
+  Sensor 5 (Paper) + Sensor 1 (Scissor) zeroed: F-score = 12786.2359 (Δ = 12785.2905)
+  Sensor 5 (Paper) + Sensor 2 (Scissor) zeroed: F-score = 12786.2359 (Δ = 12785.2905)
+  Sensor 5 (Paper) + Sensor 3 (Scissor) zeroed: F-score = 12786.2359 (Δ = 12785.2905)
+  Sensor 5 (Paper) + Sensor 4 (Scissor) zeroed: F-score = 12786.2359 (Δ = 12785.2905)
+  Sensor 5 (Paper) + Sensor 5 (Scissor) zeroed: F-score = 0.9454 (Δ = 0.0000)
+  Sensor 5 (Paper) + Sensor 6 (Scissor) zeroed: F-score = 12786.2359 (Δ = 12785.2905)
+  Sensor 5 (Paper) + Sensor 7 (Scissor) zeroed: F-score = 12786.2359 (Δ = 12785.2905)
+  Sensor 5 (Paper) + Sensor 8 (Scissor) zeroed: F-score = 12786.2359 (Δ = 12785.2905)
+  Sensor 6 (Paper) + Sensor 1 (Scissor) zeroed: F-score = 1500.2991 (Δ = 1499.3537)
+  Sensor 6 (Paper) + Sensor 2 (Scissor) zeroed: F-score = 12444.2575 (Δ = 12443.3121)
+  Sensor 6 (Paper) + Sensor 3 (Scissor) zeroed: F-score = 5253.2660 (Δ = 5252.3207)
+  Sensor 6 (Paper) + Sensor 4 (Scissor) zeroed: F-score = 8560.4365 (Δ = 8559.4911)
+  Sensor 6 (Paper) + Sensor 5 (Scissor) zeroed: F-score = 5148.3686 (Δ = 5147.4232)
+  Sensor 6 (Paper) + Sensor 6 (Scissor) zeroed: F-score = 0.9454 (Δ = 0.0000)
+  Sensor 6 (Paper) + Sensor 7 (Scissor) zeroed: F-score = 1328.7548 (Δ = 1327.8094)
+  Sensor 6 (Paper) + Sensor 8 (Scissor) zeroed: F-score = 5577.8524 (Δ = 5576.9070)
+  Sensor 7 (Paper) + Sensor 1 (Scissor) zeroed: F-score = 1526.1712 (Δ = 1525.2258)
+  Sensor 7 (Paper) + Sensor 2 (Scissor) zeroed: F-score = 12444.2575 (Δ = 12443.3121)
+  Sensor 7 (Paper) + Sensor 3 (Scissor) zeroed: F-score = 5253.2660 (Δ = 5252.3207)
+  Sensor 7 (Paper) + Sensor 4 (Scissor) zeroed: F-score = 8560.4365 (Δ = 8559.4911)
+  Sensor 7 (Paper) + Sensor 5 (Scissor) zeroed: F-score = 5148.3686 (Δ = 5147.4232)
+  Sensor 7 (Paper) + Sensor 6 (Scissor) zeroed: F-score = 1526.1712 (Δ = 1525.2258)
+  Sensor 7 (Paper) + Sensor 7 (Scissor) zeroed: F-score = 0.9454 (Δ = 0.0000)
+  Sensor 7 (Paper) + Sensor 8 (Scissor) zeroed: F-score = 5577.8524 (Δ = 5576.9070)
+  Sensor 8 (Paper) + Sensor 1 (Scissor) zeroed: F-score = 7160.1916 (Δ = 7159.2462)
+  Sensor 8 (Paper) + Sensor 2 (Scissor) zeroed: F-score = 12444.2575 (Δ = 12443.3121)
+  Sensor 8 (Paper) + Sensor 3 (Scissor) zeroed: F-score = 7160.1916 (Δ = 7159.2462)
+  Sensor 8 (Paper) + Sensor 4 (Scissor) zeroed: F-score = 8560.4365 (Δ = 8559.4911)
+  Sensor 8 (Paper) + Sensor 5 (Scissor) zeroed: F-score = 7160.1916 (Δ = 7159.2462)
+  Sensor 8 (Paper) + Sensor 6 (Scissor) zeroed: F-score = 7160.1916 (Δ = 7159.2462)
+  Sensor 8 (Paper) + Sensor 7 (Scissor) zeroed: F-score = 7160.1916 (Δ = 7159.2462)
+  Sensor 8 (Paper) + Sensor 8 (Scissor) zeroed: F-score = 0.9454 (Δ = 0.0000)
+
+============================================================
+Paper vs Scissor Sensor Importance Matrix
+Rows: Paper sensors zeroed, Columns: Scissor sensors zeroed
+============================================================
+[[ 0.00000000e+00  1.24433121e+04  5.25232067e+03  8.55949114e+03
+   5.14742324e+03  1.89153763e+03  1.89153763e+03  5.57690698e+03]
+ [ 4.33727500e+03 -7.87287914e-01  5.25232067e+03  8.55949114e+03
+   5.14742324e+03  4.33727500e+03  4.33727500e+03  5.57690698e+03]
+ [ 9.44072346e+03  1.24433121e+04  0.00000000e+00  9.44072346e+03
+   9.44072346e+03  9.44072346e+03  9.44072346e+03  9.44072346e+03]
+ [ 1.12659374e+04  1.24433121e+04  1.12659374e+04  0.00000000e+00
+   1.12659374e+04  1.12659374e+04  1.12659374e+04  1.12659374e+04]
+ [ 1.27852905e+04  1.27852905e+04  1.27852905e+04  1.27852905e+04
+   0.00000000e+00  1.27852905e+04  1.27852905e+04  1.27852905e+04]
+ [ 1.49935373e+03  1.24433121e+04  5.25232067e+03  8.55949114e+03
+   5.14742324e+03  0.00000000e+00  1.32780940e+03  5.57690698e+03]
+ [ 1.52522581e+03  1.24433121e+04  5.25232067e+03  8.55949114e+03
+   5.14742324e+03  1.52522581e+03  0.00000000e+00  5.57690698e+03]
+ [ 7.15924623e+03  1.24433121e+04  7.15924623e+03  8.55949114e+03
+   7.15924623e+03  7.15924623e+03  7.15924623e+03  0.00000000e+00]]
+
+
+Baseline Fisher score for Rock vs Paper: 10.8882
+Analyzing sensor importance for Rock vs Paper...
+  Sensor 1 (Rock) + Sensor 1 (Paper) zeroed: F-score = 1.1136 (Δ = -9.7746)
+  Sensor 1 (Rock) + Sensor 2 (Paper) zeroed: F-score = 13649.9327 (Δ = 13639.0445)
+  Sensor 1 (Rock) + Sensor 3 (Paper) zeroed: F-score = 4448.4076 (Δ = 4437.5193)
+  Sensor 1 (Rock) + Sensor 4 (Paper) zeroed: F-score = 18538.1839 (Δ = 18527.2957)
+  Sensor 1 (Rock) + Sensor 5 (Paper) zeroed: F-score = 21652.4148 (Δ = 21641.5266)
+  Sensor 1 (Rock) + Sensor 6 (Paper) zeroed: F-score = 12712.4098 (Δ = 12701.5216)
+  Sensor 1 (Rock) + Sensor 7 (Paper) zeroed: F-score = 2642.3638 (Δ = 2631.4756)
+  Sensor 1 (Rock) + Sensor 8 (Paper) zeroed: F-score = 9137.9205 (Δ = 9127.0322)
+  Sensor 2 (Rock) + Sensor 1 (Paper) zeroed: F-score = 12444.2575 (Δ = 12433.3693)
+  Sensor 2 (Rock) + Sensor 2 (Paper) zeroed: F-score = 10.8882 (Δ = 0.0000)
+  Sensor 2 (Rock) + Sensor 3 (Paper) zeroed: F-score = 12444.2575 (Δ = 12433.3693)
+  Sensor 2 (Rock) + Sensor 4 (Paper) zeroed: F-score = 18538.1839 (Δ = 18527.2957)
+  Sensor 2 (Rock) + Sensor 5 (Paper) zeroed: F-score = 21652.4148 (Δ = 21641.5266)
+  Sensor 2 (Rock) + Sensor 6 (Paper) zeroed: F-score = 12712.4098 (Δ = 12701.5216)
+  Sensor 2 (Rock) + Sensor 7 (Paper) zeroed: F-score = 12444.2575 (Δ = 12433.3693)
+  Sensor 2 (Rock) + Sensor 8 (Paper) zeroed: F-score = 12444.2575 (Δ = 12433.3693)
+  Sensor 3 (Rock) + Sensor 1 (Paper) zeroed: F-score = 7750.9638 (Δ = 7740.0755)
+  Sensor 3 (Rock) + Sensor 2 (Paper) zeroed: F-score = 13649.9327 (Δ = 13639.0445)
+  Sensor 3 (Rock) + Sensor 3 (Paper) zeroed: F-score = 10.8882 (Δ = 0.0000)
+  Sensor 3 (Rock) + Sensor 4 (Paper) zeroed: F-score = 18538.1839 (Δ = 18527.2957)
+  Sensor 3 (Rock) + Sensor 5 (Paper) zeroed: F-score = 21652.4148 (Δ = 21641.5266)
+  Sensor 3 (Rock) + Sensor 6 (Paper) zeroed: F-score = 12712.4098 (Δ = 12701.5216)
+  Sensor 3 (Rock) + Sensor 7 (Paper) zeroed: F-score = 5253.2660 (Δ = 5242.3778)
+  Sensor 3 (Rock) + Sensor 8 (Paper) zeroed: F-score = 9137.9205 (Δ = 9127.0322)
+  Sensor 4 (Rock) + Sensor 1 (Paper) zeroed: F-score = 8560.4365 (Δ = 8549.5483)
+  Sensor 4 (Rock) + Sensor 2 (Paper) zeroed: F-score = 13649.9327 (Δ = 13639.0445)
+  Sensor 4 (Rock) + Sensor 3 (Paper) zeroed: F-score = 8560.4365 (Δ = 8549.5483)
+  Sensor 4 (Rock) + Sensor 4 (Paper) zeroed: F-score = 10.8882 (Δ = 0.0000)
+  Sensor 4 (Rock) + Sensor 5 (Paper) zeroed: F-score = 21652.4148 (Δ = 21641.5266)
+  Sensor 4 (Rock) + Sensor 6 (Paper) zeroed: F-score = 12712.4098 (Δ = 12701.5216)
+  Sensor 4 (Rock) + Sensor 7 (Paper) zeroed: F-score = 8560.4365 (Δ = 8549.5483)
+  Sensor 4 (Rock) + Sensor 8 (Paper) zeroed: F-score = 9137.9205 (Δ = 9127.0322)
+  Sensor 5 (Rock) + Sensor 1 (Paper) zeroed: F-score = 7750.9638 (Δ = 7740.0755)
+  Sensor 5 (Rock) + Sensor 2 (Paper) zeroed: F-score = 13649.9327 (Δ = 13639.0445)
+  Sensor 5 (Rock) + Sensor 3 (Paper) zeroed: F-score = 5148.3686 (Δ = 5137.4804)
+  Sensor 5 (Rock) + Sensor 4 (Paper) zeroed: F-score = 18538.1839 (Δ = 18527.2957)
+  Sensor 5 (Rock) + Sensor 5 (Paper) zeroed: F-score = 10.8882 (Δ = 0.0000)
+  Sensor 5 (Rock) + Sensor 6 (Paper) zeroed: F-score = 12712.4098 (Δ = 12701.5216)
+  Sensor 5 (Rock) + Sensor 7 (Paper) zeroed: F-score = 5148.3686 (Δ = 5137.4804)
+  Sensor 5 (Rock) + Sensor 8 (Paper) zeroed: F-score = 9137.9205 (Δ = 9127.0322)
+  Sensor 6 (Rock) + Sensor 1 (Paper) zeroed: F-score = 7750.9638 (Δ = 7740.0755)
+  Sensor 6 (Rock) + Sensor 2 (Paper) zeroed: F-score = 13649.9327 (Δ = 13639.0445)
+  Sensor 6 (Rock) + Sensor 3 (Paper) zeroed: F-score = 4448.4076 (Δ = 4437.5193)
+  Sensor 6 (Rock) + Sensor 4 (Paper) zeroed: F-score = 18538.1839 (Δ = 18527.2957)
+  Sensor 6 (Rock) + Sensor 5 (Paper) zeroed: F-score = 21652.4148 (Δ = 21641.5266)
+  Sensor 6 (Rock) + Sensor 6 (Paper) zeroed: F-score = 10.8882 (Δ = 0.0000)
+  Sensor 6 (Rock) + Sensor 7 (Paper) zeroed: F-score = 2642.3638 (Δ = 2631.4756)
+  Sensor 6 (Rock) + Sensor 8 (Paper) zeroed: F-score = 9137.9205 (Δ = 9127.0322)
+  Sensor 7 (Rock) + Sensor 1 (Paper) zeroed: F-score = 7750.9638 (Δ = 7740.0755)
+  Sensor 7 (Rock) + Sensor 2 (Paper) zeroed: F-score = 13649.9327 (Δ = 13639.0445)
+  Sensor 7 (Rock) + Sensor 3 (Paper) zeroed: F-score = 4448.4076 (Δ = 4437.5193)
+  Sensor 7 (Rock) + Sensor 4 (Paper) zeroed: F-score = 18538.1839 (Δ = 18527.2957)
+  Sensor 7 (Rock) + Sensor 5 (Paper) zeroed: F-score = 21652.4148 (Δ = 21641.5266)
+  Sensor 7 (Rock) + Sensor 6 (Paper) zeroed: F-score = 12712.4098 (Δ = 12701.5216)
+  Sensor 7 (Rock) + Sensor 7 (Paper) zeroed: F-score = 10.8882 (Δ = 0.0000)
+  Sensor 7 (Rock) + Sensor 8 (Paper) zeroed: F-score = 9137.9205 (Δ = 9127.0322)
+  Sensor 8 (Rock) + Sensor 1 (Paper) zeroed: F-score = 7750.9638 (Δ = 7740.0755)
+  Sensor 8 (Rock) + Sensor 2 (Paper) zeroed: F-score = 13649.9327 (Δ = 13639.0445)
+  Sensor 8 (Rock) + Sensor 3 (Paper) zeroed: F-score = 5577.8524 (Δ = 5566.9641)
+  Sensor 8 (Rock) + Sensor 4 (Paper) zeroed: F-score = 18538.1839 (Δ = 18527.2957)
+  Sensor 8 (Rock) + Sensor 5 (Paper) zeroed: F-score = 21652.4148 (Δ = 21641.5266)
+  Sensor 8 (Rock) + Sensor 6 (Paper) zeroed: F-score = 12712.4098 (Δ = 12701.5216)
+  Sensor 8 (Rock) + Sensor 7 (Paper) zeroed: F-score = 5577.8524 (Δ = 5566.9641)
+  Sensor 8 (Rock) + Sensor 8 (Paper) zeroed: F-score = 10.8882 (Δ = 0.0000)
+
+============================================================
+Rock vs Paper Sensor Importance Matrix
+Rows: Rock sensors zeroed, Columns: Paper sensors zeroed
+============================================================
+[[-9.77456373e+00  1.36390445e+04  4.43751935e+03  1.85272957e+04
+   2.16415266e+04  1.27015216e+04  2.63147559e+03  9.12703224e+03]
+ [ 1.24333693e+04  0.00000000e+00  1.24333693e+04  1.85272957e+04
+   2.16415266e+04  1.27015216e+04  1.24333693e+04  1.24333693e+04]
+ [ 7.74007555e+03  1.36390445e+04  0.00000000e+00  1.85272957e+04
+   2.16415266e+04  1.27015216e+04  5.24237784e+03  9.12703224e+03]
+ [ 8.54954831e+03  1.36390445e+04  8.54954831e+03  0.00000000e+00
+   2.16415266e+04  1.27015216e+04  8.54954831e+03  9.12703224e+03]
+ [ 7.74007555e+03  1.36390445e+04  5.13748040e+03  1.85272957e+04
+   0.00000000e+00  1.27015216e+04  5.13748040e+03  9.12703224e+03]
+ [ 7.74007555e+03  1.36390445e+04  4.43751935e+03  1.85272957e+04
+   2.16415266e+04  0.00000000e+00  2.63147559e+03  9.12703224e+03]
+ [ 7.74007555e+03  1.36390445e+04  4.43751935e+03  1.85272957e+04
+   2.16415266e+04  1.27015216e+04  0.00000000e+00  9.12703224e+03]
+ [ 7.74007555e+03  1.36390445e+04  5.56696415e+03  1.85272957e+04
+   2.16415266e+04  1.27015216e+04  5.56696415e+03  0.00000000e+00]]
